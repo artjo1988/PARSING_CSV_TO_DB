@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS csv_tab (
+  id SERIAL PRIMARY KEY,
+  id_old  VARCHAR(16) NOT NULL,
+  name_old    VARCHAR(64) NOT NULL,
+  value_old     VARCHAR(64) NOT NULL
+)
